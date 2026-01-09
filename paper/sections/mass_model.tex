@@ -1,0 +1,29 @@
+\section{Logarithmic Mass Index and Lattice Construction}
+\label{sec:massmodel}
+
+To expose scale-invariant structure in the particle spectrum, we define a logarithmic mass index
+\begin{equation}
+q_i = \mathrm{Round}\!\left( \alpha \, \log\!\frac{m_i}{m_0} \right),
+\end{equation}
+where $m_i$ is the physical mass of particle $i$, $m_0$ is a fixed reference mass, 
+and $\alpha$ is a dimensionless normalization constant chosen to map the observed spectrum 
+onto a compact integer range.
+
+The specific choice of $m_0$ and $\alpha$ does not affect the qualitative conclusions of this work, 
+provided they are fixed globally across all particle sectors. 
+In practice, $m_0$ is taken to be the electron mass, and $\alpha$ is chosen such that 
+the heaviest known particles correspond to $q = \mathcal{O}(10^2)$.
+
+The integer-valued indices $q_i$ define a discrete ordering of particle masses that is insensitive 
+to small experimental uncertainties. 
+Crucially, this construction introduces no free parameters per particle; the same mapping applies 
+uniformly to leptons, quarks, and electroweak bosons.
+
+To visualize geometric structure, each particle is further assigned coordinates $(a_i,b_i,c_i)$ 
+in a three-dimensional lattice. 
+These coordinates are constructed as integer-valued functions of $(q_i, \mathrm{sector}, \mathrm{generation})$, 
+chosen to preserve adjacency relations between nearby mass indices.
+
+The resulting lattice is not assumed \emph{a priori} to possess any symmetry. 
+Its relevance lies entirely in the empirical observation that particles cluster into 
+well-separated regions corresponding to known physical sectors.

@@ -1,0 +1,37 @@
+\section{The Mass Lattice Construction}
+
+The empirical success of the logarithmic mass index motivates a geometric reformulation of the particle mass spectrum. Rather than treating the index $q$ as a one-dimensional ordering parameter, we embed it into a discrete lattice structure associated with the representation theory of the alternating group $A_5$.
+
+\subsection{Logarithmic Mass Index}
+
+Let $m_i$ denote the pole mass of a fundamental particle and $m_e$ the electron mass. We define the dimensionless mass index
+\begin{equation}
+q_i = \mathrm{Round}\!\left(\frac{\log(m_i/m_e)}{\log \varphi}\right),
+\quad \varphi = \frac{1+\sqrt{5}}{2}.
+\end{equation}
+
+For all known Standard Model particles, the resulting $q_i$ values are stable under experimental uncertainties and lie extremely close to integers. This defines the empirical mass scaling relation
+\begin{equation}
+m_i \approx m_e \, \varphi^{q_i},
+\end{equation}
+which holds over more than twelve orders of magnitude in mass.
+
+\subsection{Lattice Embedding}
+
+The group $A_5$ admits irreducible representations of dimensions $3$, $4$, and $5$. We associate these representations with orthogonal lattice directions and define integer coordinates $(a_i,b_i,c_i)\in\mathbb{Z}^3$ such that
+\begin{equation}
+q_i = a_i + 2b_i + 3c_i.
+\end{equation}
+
+This mapping is not assumed \emph{a priori}, but is instead inferred by requiring that:
+\begin{itemize}
+\item each known particle is assigned a unique lattice site,
+\item particles of similar type cluster geometrically,
+\item the embedding is minimal in dimension.
+\end{itemize}
+
+The resulting construction yields an injective mapping of all known fermions and gauge bosons into a bounded region of $\mathbb{Z}^3$.
+
+\subsection{Geometric Interpretation}
+
+Each particle corresponds to a discrete lattice site, while its physical mass is encoded in the logarithmic height $q$. The lattice therefore represents a quantized mass geometry rather than a continuous hierarchy. Empty lattice sites represent admissible mass values not yet occupied by known particles, immediately suggesting testable predictions.
