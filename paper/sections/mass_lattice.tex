@@ -1,37 +1,38 @@
 \section{The Mass Lattice Construction}
 
-The empirical success of the logarithmic mass index motivates a geometric reformulation of the particle mass spectrum. Rather than treating the index $q$ as a one-dimensional ordering parameter, we embed it into a discrete lattice structure associated with the representation theory of the alternating group $A_5$.
-
-\subsection{Logarithmic Mass Index}
-
-Let $m_i$ denote the pole mass of a fundamental particle and $m_e$ the electron mass. We define the dimensionless mass index
+We define a logarithmic mass coordinate
 \begin{equation}
-q_i = \mathrm{Round}\!\left(\frac{\log(m_i/m_e)}{\log \varphi}\right),
-\quad \varphi = \frac{1+\sqrt{5}}{2}.
+q_i \equiv \frac{\log(m_i / m_e)}{\log \varphi},
 \end{equation}
+where $m_e$ is the electron mass and $\varphi = (1+\sqrt{5})/2$ is the golden ratio.
+This definition renders $q_i$ dimensionless and invariant under overall mass rescalings.
 
-For all known Standard Model particles, the resulting $q_i$ values are stable under experimental uncertainties and lie extremely close to integers. This defines the empirical mass scaling relation
+Empirically, for all known charged fermions, $q_i$ lies remarkably close to integers.
+This motivates the interpretation of fermion masses as occupying discrete sites in a
+lattice indexed by $q \in \mathbb{Z}$.
+
+\subsection{Embedding into an $A_5$-Structured Lattice}
+
+The alternating group $A_5$, the rotational symmetry group of the icosahedron,
+possesses irreducible representations whose character values naturally involve $\varphi$.
+We exploit this structure to embed mass indices into a finite-dimensional lattice
+associated with quadratic Casimir invariants.
+
+Each particle $i$ is assigned a lattice coordinate
 \begin{equation}
-m_i \approx m_e \, \varphi^{q_i},
+\mathbf{L}_i = (a_i, b_i, c_i) \in \mathbb{Z}^3,
 \end{equation}
-which holds over more than twelve orders of magnitude in mass.
+where $(a_i,b_i,c_i)$ correspond to projections onto inequivalent $A_5$ irreducible sectors.
 
-\subsection{Lattice Embedding}
-
-The group $A_5$ admits irreducible representations of dimensions $3$, $4$, and $5$. We associate these representations with orthogonal lattice directions and define integer coordinates $(a_i,b_i,c_i)\in\mathbb{Z}^3$ such that
+The embedding is constrained such that
 \begin{equation}
-q_i = a_i + 2b_i + 3c_i.
+q_i = \alpha a_i + \beta b_i + \gamma c_i,
 \end{equation}
+with fixed coefficients $(\alpha,\beta,\gamma)$ determined once and for all.
+No particle-specific parameters are introduced.
 
-This mapping is not assumed \emph{a priori}, but is instead inferred by requiring that:
-\begin{itemize}
-\item each known particle is assigned a unique lattice site,
-\item particles of similar type cluster geometrically,
-\item the embedding is minimal in dimension.
-\end{itemize}
+\subsection{Empirical Consistency}
 
-The resulting construction yields an injective mapping of all known fermions and gauge bosons into a bounded region of $\mathbb{Z}^3$.
-
-\subsection{Geometric Interpretation}
-
-Each particle corresponds to a discrete lattice site, while its physical mass is encoded in the logarithmic height $q$. The lattice therefore represents a quantized mass geometry rather than a continuous hierarchy. Empty lattice sites represent admissible mass values not yet occupied by known particles, immediately suggesting testable predictions.
+Known fermions occupy a sparse subset of lattice sites with no accidental degeneracies.
+The absence of observed particles at neighboring allowed sites immediately generates
+testable predictions for undiscovered states.
