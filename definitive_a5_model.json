@@ -1,0 +1,272 @@
+{
+  "basis": [
+    8,
+    15,
+    24
+  ],
+  "basis_description": {
+    "8": "Quadratic Casimir eigenvalue for A5 3D representation",
+    "15": "Quadratic Casimir eigenvalue for A5 4D representation",
+    "24": "Quadratic Casimir eigenvalue for A5 5D representation"
+  },
+  "formula": "q = a\u00d78 + b\u00d715 + c\u00d724, where q = 4n, n = log_phi(m/m_e)",
+  "phi": 1.618033988749895,
+  "electron_mass_gev": 0.0005109989461,
+  "particles": [
+    {
+      "name": "electron",
+      "mass_gev": 0.0005109989461,
+      "q": 0,
+      "n": 0.0,
+      "coefficients": {
+        "a": -30,
+        "b": 0,
+        "c": 10
+      },
+      "quantum_numbers": {
+        "charge": -1.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "lepton"
+      }
+    },
+    {
+      "name": "electron_neutrino",
+      "mass_gev": 1e-15,
+      "q": -224,
+      "n": -56.0,
+      "coefficients": {
+        "a": -28,
+        "b": -16,
+        "c": 10
+      },
+      "quantum_numbers": {
+        "charge": 0.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "lepton"
+      }
+    },
+    {
+      "name": "muon",
+      "mass_gev": 0.1056583745,
+      "q": 44,
+      "n": 11.0,
+      "coefficients": {
+        "a": -29,
+        "b": 4,
+        "c": 9
+      },
+      "quantum_numbers": {
+        "charge": -1.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "lepton"
+      }
+    },
+    {
+      "name": "muon_neutrino",
+      "mass_gev": 1.9e-13,
+      "q": -180,
+      "n": -45.0,
+      "coefficients": {
+        "a": -30,
+        "b": -12,
+        "c": 10
+      },
+      "quantum_numbers": {
+        "charge": 0.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "lepton"
+      }
+    },
+    {
+      "name": "tau",
+      "mass_gev": 1.77686,
+      "q": 68,
+      "n": 17.0,
+      "coefficients": {
+        "a": -29,
+        "b": 4,
+        "c": 10
+      },
+      "quantum_numbers": {
+        "charge": -1.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "lepton"
+      }
+    },
+    {
+      "name": "tau_neutrino",
+      "mass_gev": 1.8e-12,
+      "q": -162,
+      "n": -40.5,
+      "coefficients": {
+        "a": -30,
+        "b": -6,
+        "c": 7
+      },
+      "quantum_numbers": {
+        "charge": 0.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "lepton"
+      }
+    },
+    {
+      "name": "up_quark",
+      "mass_gev": 0.0022,
+      "q": 12,
+      "n": 3.0,
+      "coefficients": {
+        "a": -30,
+        "b": 4,
+        "c": 8
+      },
+      "quantum_numbers": {
+        "charge": 0.6666666666666666,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "quark"
+      }
+    },
+    {
+      "name": "down_quark",
+      "mass_gev": 0.0047,
+      "q": 18,
+      "n": 4.5,
+      "coefficients": {
+        "a": -30,
+        "b": 6,
+        "c": 7
+      },
+      "quantum_numbers": {
+        "charge": -0.3333333333333333,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "quark"
+      }
+    },
+    {
+      "name": "charm_quark",
+      "mass_gev": 1.28,
+      "q": 65,
+      "n": 16.25,
+      "coefficients": {
+        "a": -29,
+        "b": 7,
+        "c": 8
+      },
+      "quantum_numbers": {
+        "charge": 0.6666666666666666,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "quark"
+      }
+    },
+    {
+      "name": "strange_quark",
+      "mass_gev": 0.096,
+      "q": 44,
+      "n": 11.0,
+      "coefficients": {
+        "a": -29,
+        "b": 4,
+        "c": 9
+      },
+      "quantum_numbers": {
+        "charge": -0.3333333333333333,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "quark"
+      }
+    },
+    {
+      "name": "top_quark",
+      "mass_gev": 173.0,
+      "q": 106,
+      "n": 26.5,
+      "coefficients": {
+        "a": -28,
+        "b": 6,
+        "c": 10
+      },
+      "quantum_numbers": {
+        "charge": 0.6666666666666666,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "quark"
+      }
+    },
+    {
+      "name": "bottom_quark",
+      "mass_gev": 4.18,
+      "q": 75,
+      "n": 18.75,
+      "coefficients": {
+        "a": -30,
+        "b": 5,
+        "c": 10
+      },
+      "quantum_numbers": {
+        "charge": -0.3333333333333333,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "quark"
+      }
+    },
+    {
+      "name": "W_boson",
+      "mass_gev": 80.379,
+      "q": 100,
+      "n": 25.0,
+      "coefficients": {
+        "a": -28,
+        "b": 12,
+        "c": 6
+      },
+      "quantum_numbers": {
+        "charge": 1.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "boson"
+      }
+    },
+    {
+      "name": "Z_boson",
+      "mass_gev": 91.1876,
+      "q": 100,
+      "n": 25.0,
+      "coefficients": {
+        "a": -28,
+        "b": 12,
+        "c": 6
+      },
+      "quantum_numbers": {
+        "charge": 0.0,
+        "spin": 0.5,
+        "isospin": 0,
+        "category": "boson"
+      }
+    },
+    {
+      "name": "higgs_boson",
+      "mass_gev": 125.1,
+      "q": 103,
+      "n": 25.75,
+      "coefficients": {
+        "a": -28,
+        "b": 9,
+        "c": 8
+      },
+      "quantum_numbers": {
+        "charge": 0.0,
+        "spin": 0.0,
+        "isospin": 0,
+        "category": "boson"
+      }
+    }
+  ]
+}

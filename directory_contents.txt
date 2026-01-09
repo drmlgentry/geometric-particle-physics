@@ -1,0 +1,35 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 70BF-6EF1
+
+ Directory of C:\Users\Your Name Here\Desktop\Geometric_Particle_Physics
+
+01/08/2026  10:15 AM    <DIR>          .
+01/08/2026  04:09 AM    <DIR>          ..
+01/08/2026  05:24 AM               835 add_particles.py
+01/08/2026  05:28 AM             3,211 analyze_particles.py
+01/08/2026  04:48 AM               322 check_packages.py
+01/08/2026  04:54 AM             1,194 create_database.py
+01/08/2026  04:11 AM    <DIR>          data
+01/08/2026  10:15 AM                 0 directory_contents.txt
+01/08/2026  05:58 AM             4,850 golden_ratio_model.py
+01/08/2026  05:47 AM             3,476 hyperbolic_mass_model.py
+01/08/2026  05:57 AM             7,021 improved_hyperbolic_model.py
+01/08/2026  05:46 AM             4,038 modular_analysis.py
+01/08/2026  05:56 AM             4,370 modular_analysis_fixed.py
+01/08/2026  06:31 AM             3,830 modular_forms_a4.py
+01/08/2026  07:07 AM             2,276 modular_forms_a4_fixed.py
+01/08/2026  07:33 AM             2,287 modular_forms_a4_fixed_v2.py
+01/08/2026  08:14 AM             2,876 n_value_analysis.py
+01/08/2026  05:48 AM             3,641 physical_interpretation.py
+01/08/2026  05:26 AM             2,991 populate_full_sm.py
+01/08/2026  06:48 AM                 0 project_setup2_20260108.txt
+01/08/2026  06:40 AM           256,660 project_setup_20260108.txt
+01/08/2026  06:52 AM           104,205 Save Strategy Update.txt
+01/08/2026  04:35 AM               432 setup_check.py
+01/08/2026  04:11 AM    <DIR>          src
+01/08/2026  06:30 AM             5,596 synthesis_and_next_steps.py
+01/08/2026  07:56 AM             3,373 tau_search.py
+01/08/2026  08:05 AM             4,831 test_all_predictions.py
+01/08/2026  04:56 AM             1,136 view_database.py
+              24 File(s)        423,451 bytes
+               4 Dir(s)  38,505,803,776 bytes free

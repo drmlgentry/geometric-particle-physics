@@ -1,0 +1,7 @@
+[
+  {
+    "time": "2024-01-07 15:30",
+    "what": "Ran quantum_number_analysis.py. Found q=4n exact integers for all particles. q divisible by 3,4,5 (connects to A5 irreps). Mass ratios don't match paper's M0 eigenvalues. Paper's M0 calculation was wrong."
+  }
+]
+Ran A5 Casimir model with 8:15:24 pattern. Found that neutrinos fit well in 4D representation with weights 3, -1, -3 and linear relation q = -10.43*w -192.14. However, unified model for all particles using q = a*C + b*w + c did not work well (average error 80.38). The 8:15:24 numbers are conjugacy class sizes of A5. Next steps: 1. Consider using two quantum numbers (weights) for A5 (since it's rank 2). 2. Try to assign each particle to a specific weight state in a specific representation and see if q can be expressed as a linear combination of the two weights and the Casimir. 3. Alternatively, consider the possibility that the model is not linear. 4. Re-examine the original paper's M0 matrix and try to correct it.

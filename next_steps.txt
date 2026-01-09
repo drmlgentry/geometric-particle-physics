@@ -1,0 +1,33 @@
+
+NEXT STEPS BASED ON LATEST ANALYSIS:
+====================================
+
+1. PATTERN FOUND:
+   - q values show divisibility by 3, 4, 5, 8, 15, 24
+   - Numbers 8, 15, 24 appear (15 and 24 are A5 conjugacy class sizes)
+   - Neutrinos fit well in 4D representation: q = -10.43*w - 192.14
+
+2. ISSUES:
+   - No single linear model works for all particles
+   - Different particle types may need different formulas
+
+3. NEW HYPOTHESES:
+   a) q = k1*(dim^2-1) + k2*spin + k3*charge + k4*isospin + ...
+   b) Different representations have different formulas
+   c) The model might be quadratic, not linear
+
+4. IMMEDIATE NEXT ACTIONS:
+   a) Try q = a*(dim^2-1) + b*spin + c*charge + d
+   b) Include electric charge and isospin in the model
+   c) Try separate models for fermions and bosons
+   d) Check if q/4 (n) has better mathematical properties
+
+5. LONGER TERM:
+   a) Understand why 8 appears (not a conjugacy class size)
+   b) Look for connections to E8 or other larger groups
+   c) Re-examine the original paper's matrix approach with corrections
+
+TO DO NOW:
+1. Create a script that includes all known quantum numbers
+2. Try multivariate regression with dim, spin, charge, isospin
+3. Check predictions for neutrino masses more carefully

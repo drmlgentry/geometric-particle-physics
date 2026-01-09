@@ -1,0 +1,221 @@
+{
+  "parameters": {
+    "alpha": 15.445874183006547,
+    "beta": 0.43811274509804576,
+    "gamma": -43.37491830065359,
+    "phi": 1.618033988749895
+  },
+  "assignments": [
+    {
+      "name": "electron_neutrino",
+      "dim": 1,
+      "w": 0,
+      "n_actual": -56.0,
+      "error": 28.070955882352955
+    },
+    {
+      "name": "muon_neutrino",
+      "dim": 1,
+      "w": 0,
+      "n_actual": -45.0,
+      "error": 17.070955882352955
+    },
+    {
+      "name": "tau_neutrino",
+      "dim": 1,
+      "w": 0,
+      "n_actual": -40.5,
+      "error": 12.570955882352955
+    },
+    {
+      "name": "electron",
+      "dim": 3,
+      "w": -1,
+      "n_actual": 0.0,
+      "error": 2.524591503268006
+    },
+    {
+      "name": "up_quark",
+      "dim": 3,
+      "w": 0,
+      "n_actual": 3.0,
+      "error": 0.03729575163394827
+    },
+    {
+      "name": "down_quark",
+      "dim": 3,
+      "w": 1,
+      "n_actual": 4.5,
+      "error": 1.0991830065359025
+    },
+    {
+      "name": "strange_quark",
+      "dim": 4,
+      "w": -3,
+      "n_actual": 11.0,
+      "error": 6.094240196078459
+    },
+    {
+      "name": "muon",
+      "dim": 4,
+      "w": -3,
+      "n_actual": 11.0,
+      "error": 6.094240196078459
+    },
+    {
+      "name": "charm_quark",
+      "dim": 4,
+      "w": -3,
+      "n_actual": 16.25,
+      "error": 0.8442401960784593
+    },
+    {
+      "name": "tau",
+      "dim": 4,
+      "w": -3,
+      "n_actual": 17.0,
+      "error": 0.09424019607845935
+    },
+    {
+      "name": "bottom_quark",
+      "dim": 4,
+      "w": 1,
+      "n_actual": 18.75,
+      "error": 0.0966911764706424
+    },
+    {
+      "name": "W_boson",
+      "dim": 4,
+      "w": 3,
+      "n_actual": 24.75,
+      "error": 5.027083333333266
+    },
+    {
+      "name": "Z_boson",
+      "dim": 4,
+      "w": 3,
+      "n_actual": 25.25,
+      "error": 5.527083333333266
+    },
+    {
+      "name": "higgs_boson",
+      "dim": 4,
+      "w": 3,
+      "n_actual": 25.75,
+      "error": 6.027083333333266
+    },
+    {
+      "name": "top_quark",
+      "dim": 5,
+      "w": -2,
+      "n_actual": 26.5,
+      "error": 6.47822712418305
+    }
+  ],
+  "predictions": [
+    {
+      "representation": "1D",
+      "dimension": 1,
+      "weight": 0,
+      "n_predicted": -27.929044117647045,
+      "q_predicted": -111.71617647058818,
+      "mass_predicted": 7.440377655674336e-10
+    },
+    {
+      "representation": "3D",
+      "dimension": 3,
+      "weight": -1,
+      "n_predicted": 2.524591503268006,
+      "q_predicted": 10.098366013072024,
+      "mass_predicted": 0.001721981277837333
+    },
+    {
+      "representation": "3D",
+      "dimension": 3,
+      "weight": 0,
+      "n_predicted": 2.9627042483660517,
+      "q_predicted": 11.850816993464207,
+      "mass_predicted": 0.002126123922498782
+    },
+    {
+      "representation": "3D",
+      "dimension": 3,
+      "weight": 1,
+      "n_predicted": 3.4008169934640975,
+      "q_predicted": 13.60326797385639,
+      "mass_predicted": 0.0026251173529011074
+    },
+    {
+      "representation": "4D",
+      "dimension": 4,
+      "weight": -3,
+      "n_predicted": 17.09424019607846,
+      "q_predicted": 68.37696078431384,
+      "mass_predicted": 1.909435202005788
+    },
+    {
+      "representation": "4D",
+      "dimension": 4,
+      "weight": -1,
+      "n_predicted": 17.97046568627455,
+      "q_predicted": 71.8818627450982,
+      "mass_predicted": 2.9108861678919666
+    },
+    {
+      "representation": "4D",
+      "dimension": 4,
+      "weight": 1,
+      "n_predicted": 18.846691176470642,
+      "q_predicted": 75.38676470588257,
+      "mass_predicted": 4.437573096758636
+    },
+    {
+      "representation": "4D",
+      "dimension": 4,
+      "weight": 3,
+      "n_predicted": 19.722916666666734,
+      "q_predicted": 78.89166666666694,
+      "mass_predicted": 6.76496910332183
+    },
+    {
+      "representation": "5D",
+      "dimension": 5,
+      "weight": -2,
+      "n_predicted": 32.97822712418305,
+      "q_predicted": 131.9129084967322,
+      "mass_predicted": 3985.307814262474
+    },
+    {
+      "representation": "5D",
+      "dimension": 5,
+      "weight": -1,
+      "n_predicted": 33.41633986928109,
+      "q_predicted": 133.66535947712435,
+      "mass_predicted": 4920.644835968522
+    },
+    {
+      "representation": "5D",
+      "dimension": 5,
+      "weight": 0,
+      "n_predicted": 33.85445261437914,
+      "q_predicted": 135.41781045751657,
+      "mass_predicted": 6075.502001399279
+    },
+    {
+      "representation": "5D",
+      "dimension": 5,
+      "weight": 1,
+      "n_predicted": 34.292565359477194,
+      "q_predicted": 137.17026143790878,
+      "mass_predicted": 7501.399877347859
+    },
+    {
+      "representation": "5D",
+      "dimension": 5,
+      "weight": 2,
+      "n_predicted": 34.73067810457523,
+      "q_predicted": 138.92271241830093,
+      "mass_predicted": 9261.950717309292
+    }
+  ]
+}
