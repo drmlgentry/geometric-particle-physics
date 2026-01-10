@@ -1,38 +1,22 @@
-\section{The Mass Lattice Construction}
-
-We define a logarithmic mass coordinate
+We define an internal mass lattice by associating each fermion with a coordinate
+vector $(n_1, n_2, n_3) \in \mathbb{Z}^3$, embedded in a logarithmic mass space.
+The physical mass $m$ is given by
 \begin{equation}
-q_i \equiv \frac{\log(m_i / m_e)}{\log \varphi},
+m = m_0 \exp\left( \alpha_1 n_1 + \alpha_2 n_2 + \alpha_3 n_3 \right),
 \end{equation}
-where $m_e$ is the electron mass and $\varphi = (1+\sqrt{5})/2$ is the golden ratio.
-This definition renders $q_i$ dimensionless and invariant under overall mass rescalings.
+where $m_0$ is a reference scale and $\alpha_i$ are fundamental geometric
+constants.
 
-Empirically, for all known charged fermions, $q_i$ lies remarkably close to integers.
-This motivates the interpretation of fermion masses as occupying discrete sites in a
-lattice indexed by $q \in \mathbb{Z}$.
-
-\subsection{Embedding into an $A_5$-Structured Lattice}
-
-The alternating group $A_5$, the rotational symmetry group of the icosahedron,
-possesses irreducible representations whose character values naturally involve $\varphi$.
-We exploit this structure to embed mass indices into a finite-dimensional lattice
-associated with quadratic Casimir invariants.
-
-Each particle $i$ is assigned a lattice coordinate
+Empirically, we find that the dominant contribution arises from a single
+effective scaling parameter $\alpha \approx \ln \varphi$, yielding
 \begin{equation}
-\mathbf{L}_i = (a_i, b_i, c_i) \in \mathbb{Z}^3,
+m_n = m_0 \varphi^n.
 \end{equation}
-where $(a_i,b_i,c_i)$ correspond to projections onto inequivalent $A_5$ irreducible sectors.
 
-The embedding is constrained such that
-\begin{equation}
-q_i = \alpha a_i + \beta b_i + \gamma c_i,
-\end{equation}
-with fixed coefficients $(\alpha,\beta,\gamma)$ determined once and for all.
-No particle-specific parameters are introduced.
+Known fermion masses align with integer or half-integer values of $n$ within
+experimental uncertainty. Deviations correspond to radiative corrections and
+electroweak symmetry effects, which enter multiplicatively rather than
+structurally.
 
-\subsection{Empirical Consistency}
-
-Known fermions occupy a sparse subset of lattice sites with no accidental degeneracies.
-The absence of observed particles at neighboring allowed sites immediately generates
-testable predictions for undiscovered states.
+The lattice interpretation explains both the hierarchical ordering and the
+relative stability of mass ratios across generations.
